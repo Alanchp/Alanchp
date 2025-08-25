@@ -14,66 +14,17 @@
         --p1: 1rem;
         --p2: .5rem;
       }
-
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        list-style: none;
-      }
-
-      body {
-        font-family: var(--paragraph-font);
-        padding: var(--p1);
-      }
-
-      h1, h2 {
-        font-family: var(--heading-font);
-        color: #37a0c0;
-      }
-
-      h2 {
-        font-size: 1.6rem;
-        margin-bottom: var(--p2);
-      }
-
-      h1 {
-        font-size: 3rem;
-        font-weight: bold;
-      }
-
-      span {
-        color: #37a0c0;
-        font-weight: bold;
-        font-style: italic;
-      }
-
-      p {
-        font-size: 1.25rem;
-      }
-
-      .main {
-        display: flex;
-        flex-direction: column;
-        gap: var(--p1);
-      }
-
-      ul {
-        display: flex;
-        flex-direction: column;
-        gap: var(--p2);
-      }
     </style>
   </head>
   <body>
     <main class="main">
       <section>
-        <h1>Hi, there 👋!</h1>
-        <p>My name is <span>Alan Chala</span>. I'm a systems engineering student focused on learning full-stack development. I'm passionate about learning new things and enjoying every moment of my life to the fullest.</p>
+        <h1 style="font-size: 3rem; font-family=var(--heading-font)">Hi, there 👋!</h1>
+        <p style="font-size: 1.2rem>My name is <span style="color: #37a0c0;">Alan Chala</span>. I'm a systems engineering student focused on learning full-stack development. I'm passionate about learning new things and enjoying every moment of my life to the fullest.</p>
       </section>
       <section>
-        <h2>My stack</h2>
-        <ul>
+        <h2 style="font-size: 1.8rem; color: #37a0c0; font-family=var(--heading-font)">My stack</h2>
+        <ul style="list-style: none">
           <li>
             <img src="https://skillicons.dev/icons?i=html,css,js,ts,react&theme=dark" alt="Programming icons">
           </li>
@@ -86,7 +37,7 @@
         </ul>
       </section>
       <footer>
-        <p>Thanks for watching my profile. You can also see my work!</p>
+        <p style="font-size: 1.2rem">Thanks for watching my profile. You can also see my work!</p>
       </footer>
     </main>
   </body>
